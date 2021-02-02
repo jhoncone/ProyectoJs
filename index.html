@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Pagina Discos</title>
+    <meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="icon" type="" href="./imagenes/icono.jpg" >
+</head>
+<header>
+
+	<nav>
+
+		<div class="contenedor1">
+
+			<div class="barra">
+				<input id="txtBuscar" type="text" placeholder="Buscar por  Autor o Disco" style="width: 265px;">
+				<button onclick="clickBtnBuscar()">Buscar</button>
+				<a href="indexbusqueda.html">Pagina busqueda</a>
+			</div>
+			<div class="menuCSS3">
+
+
+				<ul>
+
+					<li><a href="#">MENu</a>
+
+						<ul>
+							<li><a href="#">Mas escuchados</a>
+							<li><a href="#">Artistas</a></li>
+							<li><a href="#">Discos</a></li>
+
+						</ul>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+
+	</nav>
+
+</header>
+
+<body>
+	<div class="img">
+
+		<h1>TIENDA DE DISCOS</h1>
+		
+		<div>
+			<label>Ingrese nombre Autor:</label><br>
+			<input id="txtNombre" type="text"><br><br>
+			<label>Ingrese nombre Disco:</label><br>
+			<input id="txtNombre1" type="text"><br><br>
+			<label>Ingrese Carpeta imagen:</label><br>
+			<input id="txtNombre2" type="text"><br><br>
+			<label>Ingrese Procedencia Artista:</label><br>
+			<input id="txtNombre3" type="text"><br><br>
+			<label>Ingrese Año:</label><br>
+			<input id="txtNombre4" type="text"><br><br>
+			<label>Ingrese Descripcion:</label><br>
+			<input id="txtNombre5" type="text"><br><br>
+			<label>Ingrese Puntuacion:</label><br>
+			<input id="txtNombre6" type="text"><br><br>
+			<label>Ingrese Discografica:</label><br>
+			<input id="txtNombre7" type="text"><br><br>
+
+			<button onclick="clickBtnAgregar()">Agregar Disco</button>
+		</div><br><br><br>
+
+		<div>
+			<label>Discos:</label><br><br>
+
+			<button onclick="clickBtnOrderPorNombre()">Ordenar Por Nombre de Autor</button><br><br>
+
+			<br>
+			<!--
+			<input id="txtBuss" type="text" placeholder="Eliminar por Nombre de Autor" style="width: 200px;">
+			<button onclick="clickBtnEliminar()">Eliminar</button>
+		</div><br>
+	-->
+
+
+	</div>
+
+	<div class="contenedor">
+
+		<div id="lstDiscos">Aun no existen Discos agregados</div>
+		<div id="tableDiscos">Aun no existen Discos agregados</div>
+
+
+		<div>
+			<br><br>
+			<label>Lista Ordenada </label><br>
+			<button onclick="listaDiscos()">Lista de Discos</button>
+		</div>
+		<div class="discosreprodu">
+			
+			<br>
+			<label>Tabla Ordenada  </label><br>
+			<button onclick="tablaDiscos()">Tabla de Discos</button><br><br>
+		</div>
+
+
+	</div>
+	<div id="1estrella"></div>
+	<div id="2estrella"></div>
+	<div id="3estrella"></div>
+	<div id="4estrella"></div>
+	<div id="5estrella"></div>
+	<script src="scriptData.js"></script>
+	<script src="script.js"></script>
+
+</body>
+<footer>
+	<h2>All rights reserved</h2>
+</footer>
+
+</html>

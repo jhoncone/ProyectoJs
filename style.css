@@ -1,0 +1,105 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+    font-weight: 100;
+ 	font-size:22px;
+}
+
+
+.contenedor{
+
+	color:rgb(139, 120, 34);
+	background-image: url(./gris-oscuro\ \(1\).jpg);
+    height:100% ;
+	width:100% ;
+}
+
+
+.contenedor1{
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background-image: url(./imagenes/the-sun-music-palm-trees-background-wallpaper-preview.jpg);
+	
+}
+
+
+ .menuCSS3{
+	 height: 30px;
+	 font-size: 14px;
+	 background-color: #191C26;
+	 color: white;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 08px;
+	margin-left: 350px;
+	
+	
+
+	border-radius: 7px;
+
+ }
+
+.img{
+	color:rgb(137, 8, 160);
+	background-image: url(./imagenes/pngtree-music-and-live-music-logo-with-neon-light-effect-vector-png-image_3669646.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	height:100% ;
+	width:100% ;
+}
+
+footer{
+	color:blue;
+	background-image: url(./58760755-fondo-gris-oscuro-el-diseño-de-textura-fondo-del-grunge-.jpg);
+}
+/*
+.img{
+	background: yellow;
+	width: 200px;
+	height: 100px;
+	padding:40px;
+}
+.barra{
+
+	background: blue;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+}
+.menuCSS3{
+	background: red;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+}
+*/
+.menuCSS3 ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menuCSS3 a {
+	display: block;
+	padding: 1em;
+	background-color: #F9B53C;
+	text-decoration: none;
+	color: #191C26;
+}
+.menuCSS3 a:hover {
+	background-color: #CC673B;
+}
+.menuCSS3 ul li ul {
+	display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+	display: block;
+}
+#tableDiscos{
+	border: red 2px solid;
+	color: rgb(104, 121, 134);
+}
+
